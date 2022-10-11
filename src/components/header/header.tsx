@@ -147,26 +147,28 @@ class Header extends React.Component<HeaderProps, any> {
 		return (
 			<div className="headerCon">
 				<div className={"header " + headerClass} id="header">
-					<img className="headerLogo" src={images.newStar_header_logo}></img>
-					<ul className="headerNavUl">
-						{
-							this.state.NavList.map((item, index) => {
-								return (
-									<li
-										className={"headerNavLi " + item.active + " " + (this.state.NavList.length - 1 == index ? "" : "headerNavLiMarginL")}
-										onMouseEnter={() => this.onMouseover(index)}
-										onMouseLeave={() => this.onMouseLeave(index)}
-										onClick={() => this.onJumperNav(item, index)}
-									>
-										<div className={item.active ? "headerNavLiActiveLine" : "headerNavLiLine"}></div>
-										<div className={"headerNavLiTitle " + (this.state.navLiIndex == index ? 'headerNavLiActiveColor' : '')}>
-											{this.formatMessage(item.title)}
-										</div>
-									</li>
-								)
-							})
-						}
-					</ul>
+					<div className="header_warp">
+						<img className="headerLogo" src={images.home_header_logo}></img>
+						<ul className="headerNavUl">
+							{
+								this.state.NavList.map((item, index) => {
+									return (
+										<li
+											className={"headerNavLi " + item.active + " " + (this.state.NavList.length - 1 == index ? "" : "headerNavLiMarginL")}
+											onMouseEnter={() => this.onMouseover(index)}
+											onMouseLeave={() => this.onMouseLeave(index)}
+											onClick={() => this.onJumperNav(item, index)}
+										>
+											<div className={item.active ? "headerNavLiActiveLine" : "headerNavLiLine"}></div>
+											<div className={"headerNavLiTitle " + (this.state.navLiIndex == index ? 'headerNavLiActiveColor' : '')}>
+												{this.formatMessage(item.title)}
+											</div>
+										</li>
+									)
+								})
+							}
+						</ul>
+					</div>
 				</div>
 			</div>
 		)

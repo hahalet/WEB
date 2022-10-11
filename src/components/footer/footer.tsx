@@ -36,7 +36,7 @@ class Footer extends React.Component<FooterProps, any, any> {
 	}
 	_renderItem = (item: any, index: any, name: string = '') => {
 		return (
-			<div className={"footerListItem " + name} onClick={this.onJumpPage}>
+			<div className={"footerListItem " + name} onClick={() => this.onJumpPage(item)}>
 				{item['icon'] && <img className="footerItemIcon" src={item.icon}></img>}
 				<div className="footerItemText">{item.text}</div>
 			</div>

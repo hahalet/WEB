@@ -143,13 +143,14 @@ class Home extends React.Component<HomeProps, HomeStateProps, any> {
 				</div>
 			</div>
 			<div className="home_con">
-				<div className="home_con_w">
+				<div className="home_con_w" id="#Solution">
 					{this._renderTitle('J', '解决方案')}
 					<div className="home_deal_bg">
 						<div className="home_deal_list">
 							{this.tanList.map((item, index) => this._renderDealItem(item ,index))}
 						</div>
 					</div>
+					<img className="home_l_image" src={images.home_l_image} alt="" />
 				</div>
 			</div>
 			<div className="home_con">

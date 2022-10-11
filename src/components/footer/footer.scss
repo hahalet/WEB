@@ -33,6 +33,10 @@
 .footerItemText {
   font-size: 18px;
   font-weight: 400;
+  cursor: pointer;
+}
+.footerItemText:hover {
+  color: #DDD;
 }
 
 .ft_icon {

@@ -1,195 +1,70 @@
-@import '~antd/dist/antd.css';
+.aboutUsBody {}
 
-.Contact_dingbi {
+// 头部内容
+.aboutUsHeader {
   width: 100%;
-  height: 500px;
-  background: #F2F3FF;
+  height: 800px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Contact_dingbi2 {
-  background: url('../../assets/frame4/largerImage.png') no-repeat;
-  width: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  height: auto;
-  justify-content: center;
-  background-size: 100%100%;
   flex-direction: column;
-  padding: 40px 0;
-
+  background: url('../../assets/contact/contact_bg.png') no-repeat;
+  background-size: cover;
 }
 
-.Contact_img {
-  width: 500px;
-  height: 300px;
-}
-
-.Contact_Laborum {
-  font-size: 14px;
-  color: #000000;
-  width: 430px;
-  padding-left: 33px;
-}
-
-.Contact_text1 {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-
-  color: #8E1316;
-}
-
-.Contact_text2 {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 200%;
-
-  color: rgba(28, 28, 28, 0.5);
-
-}
-
-.Contact_text3 {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  color: #000000;
-}
-
-.Contact_Image {
-  padding-top: 30px;
-  width: 168px;
-  height: 27px;
-}
-
-.Contact_Culpa {
-  padding: 80px 0 40px 0px;
+.aboutUsHeaderCon {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  padding-top: 100px;
+  color: #fff;
 }
 
-.Contact_CulpaText {
-  padding: 30px;
+.aboutUsHeaderTitle {
+  width: 470px;
+  margin-top: 60px;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+.aboutUsHeaderText {
+  width: 760px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.Converted_image {
+  width: 346px;
+  height: 421px;
+  margin-left: 230px;
+}
+
+.Technology_image {
+  width: 346px;
+  height: 421px;
+  margin-left: 230px;
+}
+
+.about_con_center {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 74px;
 }
 
-.Contact_CulpaTextImg {
-  width: 140px;
-  height: 180px;
+.about_image {
+  width: 1200px;
+  height: 590px;
 }
 
-.Contact_CulpaDataText {
-  width: 330px;
-  padding-left: 20px;
-}
-
-.Contact_CulpaDataText1 {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 130%;
+.contact_address_text {
+  width: 1200px;
+  padding-top: 43px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
   color: #333333;
-}
-
-.Contact_CulpaDataText2 {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 130%;
-  color: rgba(28, 28, 28, 0.5);
-  padding: 10px 0;
-}
-
-.Contact_CulpaDataText3 {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 130%;
-  color: #333333;
-}
-
-.Contact_CulpaDataText4 {
-  padding-top: 10px;
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 130%;
-  display: flex;
-  align-items: center;
-  color: #F2A322;
-
-}
-
-.Contact_Line {
-  width: 40px;
-  height: 10px;
-  padding-left: 10px;
-}
-
-.Contact_dingbi2_text {
-  width: 400px;
-  height: 400px;
-  background: #FFFFFF;
-  margin: 0 auto;
-  position: relative;
-  left: 20%;
-
-}
-
-.Contact_dingbi2_text_div {
-  padding: 70px 40px;
-}
-
-.Contact_dingbi2_text1 {
-  /* H1 (36)/Bold */
-
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 130%;
-
-  color: #8E1316;
-}
-
-.Contact_dingbi2_text2 {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 140%;
-  color: rgba(28, 28, 28, 0.5);
-  margin: 15px 0;
-}
-
-.Contact_dingbi2_text3 {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 130%;
-  color: #000000;
-
-}
-
-.Pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 40px;
 }
