@@ -16,8 +16,6 @@ import { local } from './locals/local'
 import Home from './pages/home/home';
 import AboutUs from './pages/aboutUs/aboutUs';
 import Product from './pages/product/product';
-import Detail from './pages/detail/detail';
-import PersonInfo from './pages/personInfo/personInfo';
 import './index.scss';
 
 export class Index extends React.Component {
@@ -62,12 +60,6 @@ export class Index extends React.Component {
             </Route>
             <Route exact path="/product">
               <Product />
-            </Route>
-            <Route exact path="/personInfo">
-              <PersonInfo />
-            </Route>
-            <Route exact path="/detail">
-              <Detail />
             </Route>
             <Route exact path="/aboutUs">
               <AboutUs />

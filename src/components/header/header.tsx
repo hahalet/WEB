@@ -30,14 +30,14 @@ class Header extends React.Component<HeaderProps, any> {
 					routeName: 'product',
 				},
 				{
-					title: '解决方案',
-					active: '',
-					routeName: 'personInfo',
-				},
-				{
 					title: '关于我们',
 					active: '',
 					routeName: 'aboutUs',
+				},
+				{
+					title: '联系我们',
+					active: '',
+					routeName: 'contact',
 				},
 			],
 			navLiIndex: 0,
@@ -46,22 +46,6 @@ class Header extends React.Component<HeaderProps, any> {
 			language: 'en'
 		}
 	}
-
-	languageOption = [
-		// {
-		// 	value: 'zh',
-		// 	label: 'China',
-		// },
-		{
-			value: 'en',
-			label: 'English',
-		},
-		{
-			value: 'vi',
-			label: 'Tiếng Việt',
-		},
-	]
-
 
 	componentDidMount(): void {
 		const navIndex = localStorage.getItem('newStarWebNavIndex');
@@ -159,11 +143,7 @@ class Header extends React.Component<HeaderProps, any> {
 	}
 
 	render() {
-		const { isShowMenu, headerClass, language } = this.state;
-		const lang = this.languageOption.find(item => {
-			return language == item.value
-		})
-		console.log('header---lang:', lang);
+		const { headerClass } = this.state;
 		return (
 			<div className="headerCon">
 				<div className={"header " + headerClass} id="header">
