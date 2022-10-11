@@ -1,0 +1,133 @@
+.headerCon {
+  height: 100px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 200;
+  box-sizing: border-box;
+  padding: 0 100px;
+  font-size: 16px;
+  transition: 1s ease-in;
+}
+
+.headerBgWColor {
+  background: #fff;
+  color: #333;
+  box-shadow: 0 3px 6px -4px #0000001f
+}
+
+.headerBgNColor {
+  background: none;
+  color: #fff;
+  box-shadow: none
+}
+
+.headerLogo {
+  width: 96px;
+  height: 63px;
+}
+
+.headerNavUl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerNavLi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headerNavLiLine {
+  height: 2px;
+  width: 20px;
+  margin-right: 10px;
+  background: none;
+}
+
+.headerNavLiActiveLine {
+  height: 2px;
+  width: 20px;
+  margin-right: 10px;
+  background: #F2A322;
+}
+
+
+.headerNavLiTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.headerNavLiHoverColor {
+  color: #F2A322;
+}
+
+.headerNavLiActiveColor {
+  padding: 8px 16px;
+  color: #FFF;
+  background: #8E1316;
+}
+
+.headerNavLiMarginL {
+  margin-right: 32px;
+}
+
+.DropDownMain {
+  position: relative;
+}
+
+.dropDownHead {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropDownSelectIcon {
+  width: 14px;
+  height: 8px;
+  margin-left: 12px;
+  margin-top: 4px;
+}
+
+.dropDownMenu {
+  min-width: 140px;
+  position: absolute;
+  z-index: 201;
+  top: 30px;
+  left: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0;
+  background: #fff;
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+  border-radius: 8px;
+}
+
+.dropDownMenItem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  color: #333;
+}
+
+.dropDownMenItem:hover {
+  background: #eee;
+}
+
+.dropDownMenuDisPlay {
+  display: none;
+}

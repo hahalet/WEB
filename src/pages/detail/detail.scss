@@ -1,0 +1,128 @@
+.detailBody {
+  .detailContentCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detailContent {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // 内容一
+  .detailInfoCon {
+    width: 770px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detailInfoDate {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba($color: #1C1C1C80, $alpha: 0.5);
+  }
+
+  .detailInfoText {
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+  }
+
+  .detailInfoName {
+    text-align: right;
+    padding-top: 102px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .detailInfoTitle {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #8E1316;
+  }
+
+  .detailInfoImage {
+    width: 770px;
+    height: 437px;
+  }
+
+  // 内容二
+  .detailMoreCon {
+    width: 370px;
+  }
+
+  .detailMoreItemText {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .detailMoreItemImage {
+    width: 370px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+
+  // 内容三
+  .detailAboutCon {
+    width: 1170px;
+  }
+
+  .detailAboutInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .detailAboutItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detailAboutItemR {
+    width: 270px;
+  }
+
+  .detailAboutImage {
+    width: 85px;
+    height: 120px;
+    margin-right: 15px;
+  }
+
+  .detailAboutLine {
+    width: 1170px;
+    height: 2px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background: #DFDFDF;
+  }
+
+  .detailAboutItemText1 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+
+  .detailAboutItemText2 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+  }
+
+}

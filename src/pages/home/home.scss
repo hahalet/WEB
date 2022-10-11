@@ -1,0 +1,264 @@
+.home_header {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: url('../../assets/home/home_header_bg.png') no-repeat;
+  background-size: contain;
+}
+
+.home_con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_con_w {
+  width: 1200px;
+}
+
+.home_header_title {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+.home_header_text {
+  width: 640px;
+  padding-top: 40px;
+  padding-bottom: 130px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.home_header_img_con {
+  display: flex;
+  align-items: center;
+  margin-bottom: 134px;
+}
+
+.home_header_image {
+  width: 205px;
+  height: 186px;
+  margin-right: 35px;
+}
+
+.home_title_con {
+  height: 210px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #333333;
+}
+
+.home_title_icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 41px;
+}
+
+.home_title_name {
+  width: 87px;
+  height: 210px;
+  position: absolute;
+  left: 84px;
+  top: -44px;
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 250px;
+  color: rgba($color: #666, $alpha: 0.25);
+}
+
+// 内容一
+.project {
+  width: 100%;
+}
+
+.project_rg {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project_con {
+  position: relative;
+  width: 1157px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background: linear-gradient(226deg, #001246 0%, #0D0000 49%, #480002 100%);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.project_rg_con {
+  position: relative;
+  width: 1157px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(226deg, #001246 0%, #0D0000 49%, #480002 100%);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.project_title_num {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #E5002E 0%, #FAA7A7 100%);
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.project_title {
+  display: flex;
+  padding-top: 105px;
+  font-size: 34px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.project_title_text {
+  width: 462px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 25px;
+}
+
+.project_btn {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #E5002E 0%, #FAA7A7 100%);
+  box-shadow: 0px 4px 40px rgba(232, 0, 6, 0.65);
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.project_img {
+  width: 724px;
+  height: 543px;
+  position: absolute;
+  right: -470px;
+  top: 0;
+}
+
+.project_img_rg {
+  left: -470px;
+}
+
+// 解决方案
+.home_deal_bg {
+  width: 1200px;
+  height: 243px;
+  background: url('../../assets/home/home_deal_bg.png') no-repeat;
+  background-size: contain;
+}
+
+.home_deal_list {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_deal_item {
+  display: flex;
+}
+.home_deal_item_mag_r {
+  margin-right: 36px;
+}
+
+.home_deal_item_text {
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.home_deal_item_icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.home_deal_item_title {
+  padding-top: 8px;
+  font-size: 24px;
+  font-family: Source Han Sans CN;
+  font-weight: 500;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+// 核心价值
+.home_h_list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 125px;
+}
+
+.home_value_item {
+  width: 377px;
+  height: 192px;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-left: 29px;
+  position: relative;
+  border: 1px solid #F80000;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #333333;
+}
+
+.home_value_item_mr {
+  margin-right: 35px;
+}
+
+.home_value_item_title {
+  width: 237px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -48px;
+  left: 20px;
+  background: linear-gradient(180deg, #E5002E 0%, #FAA7A7 100%);
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.home_value_item_text {
+  width: 341px;
+}

@@ -1,0 +1,255 @@
+.aboutUsBody {}
+
+// 头部内容
+.aboutUsHeader {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  background: url('../../assets/frame1/Rectangle.png') no-repeat;
+  background-size: contain;
+}
+
+.aboutUsHeaderCon {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.aboutUsHeaderTitle {
+  width: 470px;
+  margin-top: 60px;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.aboutUsHeaderText {
+  width: 470px;
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Converted_image {
+  width: 346px;
+  height: 421px;
+  margin-left: 230px;
+}
+
+.Technology_image {
+  width: 346px;
+  height: 421px;
+  margin-left: 230px;
+}
+
+// 内容二
+.aboutUsProductMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  background: #F2F3FF;
+}
+
+.aboutUsProductItem {
+  width: 403px;
+  height: 477px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // background: red;
+}
+
+.aboutUsProductItemBg {
+  width: 384px;
+  height: 428px;
+  border-radius: 6px;
+}
+
+.aboutUsProductBg1 {
+  background: url('../../assets/frame1/Converted_image1.png') no-repeat;
+  background-size: contain;
+}
+
+.aboutUsProductBg2 {
+  background: url('../../assets/frame1/Converted_image2.png') no-repeat;
+  background-size: contain;
+}
+
+.aboutUsProductBg3 {
+  background: url('../../assets/frame1/Converted_image3.png') no-repeat;
+  background-size: contain;
+}
+
+.aboutUsProductItemInfo {
+  width: 80%;
+  height: 80px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 5px -3px #eee;
+}
+
+.aboutUsProductItemText {
+  width: 180px;
+  font-size: 16px;
+}
+
+.Converted_Line {
+  width: 50px;
+  height: 8px;
+}
+
+// 内容三
+.aboutUsImagineMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 132px 0 80px;
+  background: #FFF;
+}
+
+.aboutUsImagineItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.aboutUsImagineItemRgt {
+  width: 470px;
+}
+
+.aboutUsImagineTitle {
+  margin-bottom: 15px;
+  font-size: 72px;
+  color: #F2F2F2;
+  font-weight: 800;
+  line-height: 108px;
+}
+
+.aboutUsImagineText1 {
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.aboutUsImagineText2 {
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+}
+
+.aboutUsImagineLine {
+  width: 100px;
+  height: 6px;
+  margin: 30px 0;
+  background: #F2A322;
+}
+
+.aboutUsImagineImage {
+  width: 602px;
+  height: 402px;
+}
+
+.aboutUsImagineML {
+  margin-left: 50px;
+}
+
+.aboutUsImagineMR {
+  margin-right: 50px;
+}
+
+
+
+// 内容四
+.aboutUsBusinessMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 118px;
+  background: #F2F3FF;
+}
+
+.aboutUsBusinessTitle {
+  margin-bottom: 60px;
+  font-size: 24px;
+  color: #8E1316;
+}
+
+.aboutUsBusinessImages {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutUsBusinessItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutUsBusinessMT {
+  margin-bottom: 60px;
+}
+
+.aboutUsBusinessMR {
+  margin-right: 100px;
+}
+
+.bus_momo_icon {
+  width: 35px;
+  height: 35px;
+}
+
+.bus_msb_icon {
+  width: 142px;
+  height: 35px;
+}
+
+.bus_advance_icon {
+  width: 195px;
+  height: 35px;
+}
+
+.bus_sacombank_icon {
+  width: 216px;
+  height: 35px;
+}
+
+.bus_viettel_icon {
+  width: 164px;
+  height: 35px;
+}
+
+.bus_cmc_cloud_icon {
+  width: 74px;
+  height: 35px;
+}
+
+.bus_v_icon {
+  width: 35px;
+  height: 35px;
+}
+
+.bus_ppt_telecom_icon {
+  width: 106px;
+  height: 35px;
+}
+
+.bus_bankim_icon {
+  width: 92px;
+  height: 35px;
+}
