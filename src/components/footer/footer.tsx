@@ -32,7 +32,7 @@ class Footer extends React.Component<FooterProps, any, any> {
 	}
 	onJumpL = () => {
 		// this.props.history.push('https://beian.miit.gov.cn/#/Integrated/recordQuery');
-		window.open('https://beian.miit.gov.cn/#/Integrated/recordQuery')
+		window.open('https://beian.miit.gov.cn')
 	}
 	_renderItem = (item: any, index: any, name: string = '') => {
 		return (
