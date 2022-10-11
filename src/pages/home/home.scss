@@ -3,10 +3,13 @@
   height: 900px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background: url('../../assets/home/home_header_bg.png') no-repeat;
   background-size: contain;
+}
+.home_h {
+  flex: 1;
 }
 
 .home_con {

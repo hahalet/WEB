@@ -97,9 +97,9 @@ class Home extends React.Component<HomeProps, HomeStateProps, any> {
 	}
 	render() {
 		return <div className="homeBody">
-			<Header></Header>
 			<div className="home_header">
-				<div className="home_con_w">
+				<Header></Header>
+				<div className="home_con_w home_h">
 					<div className="home_header_title">数字藏品管理系统</div>
 					<div className="home_header_text">运用区块链技术,构建”区块链+”数字收藏服务生态,针对艺术收藏、潮玩手办、名贵艺术品等藏品市场推出了专业化的区块链解决方案</div>
 					<div className="home_header_img_con">
